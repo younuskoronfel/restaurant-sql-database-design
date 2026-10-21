@@ -1,5 +1,7 @@
 # Restaurant SQL Database Design
 
+[![Database checks](https://github.com/younuskoronfel/restaurant-sql-database-design/actions/workflows/tests.yml/badge.svg)](https://github.com/younuskoronfel/restaurant-sql-database-design/actions/workflows/tests.yml)
+
 **SQL • Relational modeling • JOINs • Sales reporting • Inventory analysis**
 
 I worked on database design and sales-reporting ideas for **Red Pepper Pizzeria & Pasta** in early 2026. The core problem was connecting what a restaurant sells to the ingredients each item consumes. My original work included planning relationships among **orders, menu items, recipes, ingredients, and inventory**, along with example SQL reports for revenue and menu analysis.
