@@ -1,10 +1,12 @@
-# Restaurant SQL Database Design — educational reconstruction
+# Restaurant SQL Database Design
 
 **SQL • Relational modeling • JOINs • Sales reporting • Inventory analysis**
 
-This repository is a reproducible, **synthetic-data reconstruction** inspired by an independent January–March 2026 database-design project involving Red Pepper Pizzeria & Pasta. The earlier work involved planning relationships among **orders, menu items, recipes, ingredients, and inventory**, and drafting example queries for sales and menu analysis.
+I worked on database design and sales-reporting ideas for **Red Pepper Pizzeria & Pasta** in early 2026. The core problem was connecting what a restaurant sells to the ingredients each item consumes. My original work included planning relationships among **orders, menu items, recipes, ingredients, and inventory**, along with example SQL reports for revenue and menu analysis.
 
-**Important:** These files are a later teaching implementation, **not a claim that this exact SQL, sample data, or test suite was created or deployed for the restaurant in 2026**. The sample data is invented. The repository was assembled with AI assistance; the owner should document personal changes honestly.
+The files in this repository make those ideas runnable with **fictional sample data**.
+
+**Scope:** This is a later, AI-assisted reconstruction for learning and demonstration—not the original 2026 SQL files, an operational client system, or private restaurant data.
 
 ## Problem
 
@@ -67,6 +69,6 @@ Estimated usage measures what the recipes imply should have been used. Waste als
 - `docs/TECHNICAL_WRITEUP.md` — original project overview and honest scope
 - `docs/INTERVIEW_STUDY_GUIDE.md` — explanation questions and exercises
 
-## Learning and disclosure
+## What I would expand next
 
-This educational reconstruction was AI-assisted. Before presenting it to Stripe, independently run the examples, verify totals by hand, identify your real historical contributions, and document any code you personally modify. Original private business data is deliberately excluded.
+My next step would be to add a clearer comparison between expected recipe usage and actual stock movements, along with queries that test unusual orders and ingredient substitutions. The included technical write-up explains the distinction between the original database-design work and this reproducible example.
